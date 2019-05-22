@@ -1,0 +1,66 @@
+1.Scopes
+ 
+<모르는 단어 정리>
+entities(entity) : 독립체 ,개체 
+declaration: 선언 
+statement : 성명, 진술, 서술 
+ 
+지명된 개체, 변수와 같은, 함수 그리고 복합체 유형들은 C++사용 전에 선언되어야 한다.
+블록 밖에서 선언된 개체는 글로벌 범위 갖는다, 이것은 코드 어느 곳에서든 유효하다.
+ 
+2.Namespace
+ 
+<모르는 단어 정리> 
+seldom : 드물게 
+relatively : 상대적으로 
+collision :  충돌 
+generic :  포괄적인
+narrower : 폭이 좁은
+referred to : ~에 언급된 
+ identifier : 식별자 
+ 
+특정한 범위에 특정한 이름에는 오직 하나의 개체만 존재할 수 있다. 
+비지역적 이름들은 충돌할 가능성이 더 많다.
+ 
+ 
+3. Using 
+ 
+<모르는 단어 정리>
+declarative : 서술문의 
+splitting : 분열의 
+ 
+키워드 using은 현재 서술문의 영역에 이름을 소개한다. 그러므로 그 이름에 대한 자격을 부여할 필요를 피한다.
+ 
+4. Namespace aliasing 
+ 
+<모르는 단어 정리>
+aliased : 별칭의
+syntax : (컴퓨터 언어의)문법
+ 
+ 
+기존의 네임스페이스는 다음과 같은 문법으로 새 이름의 별칭을 줄 수 있다.
+ 
+namespace new_name  = current_name;
+ 
+ 
+5. std namespace 
+ <모르는 단어 정리>
+constants : 일정한(상수)
+facilitate : 용이하게 하다
+comprehension : 이해력 
+explicit : 명시적 
+ 
+표준 c++라이브러리의 모든 개체(변수, 타입,상수, 함수)는 std namespace내에서  선언된다. 
+using namespace std;
+ 
+6. Storage classes
+ <모르는 단어 정리>
+contrasts : 대조를 이루다
+substantial : 상당한 
+explicitly : 명쾌하게 
+initialized : 초기 내용으로 설정하다
+undetermined : 미확인의 
+ 
+글로벌 또는 namespace 범위를 갖는 변수에 대한 저장소는 프로그램 전체에 지속동안 할당된다.
+이것을 정적 storage라고 한다.
+이것은 로컬 변수 저장소와 대조를 이룬다.
